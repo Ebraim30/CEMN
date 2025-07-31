@@ -6,7 +6,7 @@
         <div class="header-left">
           <div class="logo-circle">
             <div class="logo-inner-circle">
-              <img src="@/assets/images/Design sem nome.png" alt="" class="logo-icon">
+              <img src="@/assets/images/Design sem nome.png" alt="" class="logo-icon" />
             </div>
           </div>
           <div class="logo-text">
@@ -54,7 +54,8 @@
             </h1>
           </div>
           <p class="hero-description">
-            Educação de qualidade baseada em valores cristãos, estimulando o desenvolvimento integral através de metodologias inovadoras como STEAM, Montessori e Waldorf.
+            Educação de qualidade baseada em valores cristãos, estimulando o desenvolvimento
+            integral através de metodologias inovadoras como STEAM, Montessori e Waldorf.
           </p>
 
           <div class="hero-buttons">
@@ -62,13 +63,17 @@
               <MessageCircleIcon class="icon-sm" />
               <span>Fale Conosco</span>
             </button>
-            <button class="btn-saiba-mais">Saiba Mais</button>
+            <button class="btn-saiba-mais">Nossa Historia</button>
           </div>
         </div>
 
         <div class="hero-right">
           <div class="hero-image-wrapper">
-            <img src="" alt="Crianças aprendendo na natureza" class="hero-image" />
+            <img
+              src="../public/foto1.jpg"
+              alt="Crianças aprendendo na natureza"
+              class="hero-image"
+            />
             <div class="heart-icon-wrapper">
               <HeartIcon class="icon-lg" />
             </div>
@@ -150,7 +155,9 @@
     <section class="cta">
       <div class="cta-content">
         <h2>Faça Parte da Nossa Família Educacional</h2>
-        <p>Entre em contato e descubra como podemos contribuir para o desenvolvimento do seu filho</p>
+        <p>
+          Entre em contato e descubra como podemos contribuir para o desenvolvimento do seu filho
+        </p>
         <button @click="openWhatsApp" class="btn-whatsapp-large">
           <MessageCircleIcon class="icon-md" />
           <span>Conversar no WhatsApp</span>
@@ -206,13 +213,13 @@
 
 <script setup>
 import { ref } from 'vue'
-import { 
-  MenuIcon, 
-  XIcon, 
-  MessageCircleIcon, 
-  BookOpenIcon, 
-  HeartIcon, 
-  UsersIcon 
+import {
+  MenuIcon,
+  XIcon,
+  MessageCircleIcon,
+  BookOpenIcon,
+  HeartIcon,
+  UsersIcon,
 } from 'lucide-vue-next'
 
 const mobileMenuOpen = ref(false)
@@ -228,20 +235,34 @@ const openWhatsApp = () => {
 </script>
 
 <style scoped>
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
+
+/* Reset para html e body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 /* Container */
 .container {
   min-height: 100vh;
+  width: 100%;
   font-family: 'Inter', sans-serif;
 }
 
 /* Header */
 .header {
   background-color: #059669; /* emerald-500 */
-  box-shadow: 0 10px 15px -3px rgba(5,150,105,0.4), 0 4px 6px -4px rgba(5,150,105,0.3);
+  box-shadow:
+    0 10px 15px -3px rgba(5, 150, 105, 0.4),
+    0 4px 6px -4px rgba(5, 150, 105, 0.3);
   position: sticky;
   top: 0;
   z-index: 50;
@@ -268,7 +289,7 @@ const openWhatsApp = () => {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .logo-inner-circle {
   width: 2rem;
@@ -281,7 +302,7 @@ const openWhatsApp = () => {
 }
 .logo-icon {
   color: white;
-width: 200%;
+  width: 200%;
 }
 
 /* Logo text */
@@ -321,7 +342,9 @@ width: 200%;
   font-weight: 600;
   cursor: pointer;
   border: none;
-  transition: background-color 0.3s, transform 0.3s;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
 }
 .btn-contact:hover {
   background-color: #812b58; /* fuchsia-700 */
@@ -395,7 +418,7 @@ width: 200%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
   margin-bottom: 1.5rem;
 }
 .hero-icon {
@@ -431,10 +454,12 @@ width: 200%;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border: none;
-  transition: background-color 0.3s, transform 0.3s;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
 }
 .btn-whatsapp:hover {
   background-color: #ecfdf5;
@@ -448,7 +473,9 @@ width: 200%;
   border-radius: 9999px;
   font-weight: 700;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 .btn-saiba-mais:hover {
   background-color: white;
@@ -466,7 +493,7 @@ width: 200%;
   height: 24rem;
   border-radius: 9999px;
   overflow: hidden;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
   border: 8px solid rgba(255 255 255 / 0.2);
 }
 .hero-image {
@@ -521,20 +548,20 @@ width: 200%;
 }
 .about-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 .card {
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: box-shadow 0.3s;
   cursor: default;
 }
 .card:hover {
-  box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 }
 .card-icon {
   width: 4rem;
@@ -607,7 +634,7 @@ width: 200%;
 /* Education cards grid */
 .education-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.5rem;
 }
 .edu-card {
@@ -667,10 +694,12 @@ width: 200%;
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border: none;
-  transition: background-color 0.3s, transform 0.3s;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
 }
 .btn-whatsapp-large:hover {
   background-color: #ecfdf5;
@@ -687,7 +716,7 @@ width: 200%;
   max-width: 112rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
 }
 .footer-left {
@@ -769,10 +798,12 @@ width: 200%;
   color: white;
   padding: 1rem;
   border-radius: 9999px;
-  box-shadow: 0 25px 50px rgba(34,197,94,0.7);
+  box-shadow: 0 25px 50px rgba(34, 197, 94, 0.7);
   cursor: pointer;
   border: none;
-  transition: background-color 0.3s, transform 0.3s;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
   animation: pulse 2s infinite;
   display: flex;
   align-items: center;
@@ -800,7 +831,8 @@ html {
 
 /* Animações personalizadas */
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
@@ -833,7 +865,8 @@ html {
   .nav-desktop {
     display: flex;
   }
-  .btn-mobile-menu, .mobile-menu {
+  .btn-mobile-menu,
+  .mobile-menu {
     display: none !important;
   }
 }
