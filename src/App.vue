@@ -235,7 +235,7 @@ const openWhatsApp = () => {
 </script>
 
 <style scoped>
-* {
+*, body, html {
   margin: 0%;
   padding: 0%;
 }
@@ -524,6 +524,7 @@ body {
 .about {
   padding: 5rem 1rem;
   background-color: #f9fafb;
+  margin: 0  !important;
 }
 .about-content {
   max-width: 112rem;
