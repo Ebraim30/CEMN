@@ -548,8 +548,8 @@
         <div class="footer-logo-circle">
           <img src="../public/logo.png" alt="Logo" class="footer-logo-icon" />
         </div>
-        <div>
-          <h3>Colégio Mãe Natureza</h3>
+        <div class="footer-text">
+          <h3 style="margin-bottom: 2%;">Colégio Mãe Natureza</h3>
           <span>Educação com amor e dedicação</span>
         </div>
       </div>
@@ -628,11 +628,6 @@ window.open(whatsappUrl, '_blank')
 </script>
 
 <style scoped>
-/* Seu CSS original aqui - mantido exatamente igual */
-*, body, html {
-margin: 0%;
-padding: 0%;
-}
 
 html,
 body {
@@ -643,6 +638,13 @@ height: 100%;
 overflow-x: hidden;
 }
 
+
+.footer-logo-icon{
+  width:auto;
+  height: auto;
+  display: block;
+  max-width: 150px;
+}
 .container {
 min-height: 100vh;
 width: 100%;
@@ -690,16 +692,19 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 .logo-inner-circle {
 width: 2rem;
 height: 2rem;
-background-color: #059669;
+background-color: #ffffff;
 border-radius: 9999px;
 display: flex;
-justify-content: center;
+justify-content:center;
+text-align: center;
 align-items: center;
 }
 
 .logo-icon {
 color: white;
-width: 200%;
+width: 65px;
+height: 65px;
+display: block;
 }
 
 .logo-text h1 {
@@ -808,20 +813,19 @@ max-width: 40rem;
 }
 
 .hero-icon-circle {
-width: 4rem;
 height: 4rem;
-background: white;
-border-radius: 9999px;
 display: flex;
-justify-content: center;
+justify-content: left;
 align-items: center;
-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0);
 margin-bottom: 1.5rem;
 }
 
 .hero-icon {
 color: #059669;
-font-size: 2rem;
+width: 170px;
+display: block;
+height: auto;
 }
 
 .hero-title {
@@ -1066,7 +1070,9 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 gap: 1.5rem;
 }
-
+.footer-text{
+  margin-left: 15%;
+}
 .edu-card {
 background-color: rgba(255 255 255 / 0.1);
 backdrop-filter: blur(8px);
@@ -1252,7 +1258,7 @@ font-weight: 700;
 .historia-image {
 border-radius: 1rem;
 overflow: hidden;
-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
 }
 
 .historia-image img {
@@ -1261,6 +1267,7 @@ height: 24rem;
 object-fit: cover;
 background-color: #d1fae5;
 }
+
 
 .metodologias-section {
 background-color: white;
@@ -1793,9 +1800,8 @@ align-items: center;
 }
 
 .footer-logo-circle {
-width: 3rem;
 height: 3rem;
-background-color: #059669;
+background-color: #05966800;
 border-radius: 9999px;
 display: flex;
 justify-content: center;
@@ -1849,7 +1855,7 @@ color: white;
 background-color: #059669;
 padding: 0.75rem 1.5rem;
 border-radius: 9999px;
-font-weight: 600;
+font-weight: 400;
 color: white;
 cursor: pointer;
 border: none;
@@ -1857,7 +1863,8 @@ display: inline-flex;
 align-items: center;
 gap: 0.5rem;
 transition: background-color 0.3s;
-}
+text-decoration: none;
+font-size:medium;}
 
 .btn-contact-footer:hover {
 background-color: #047857;
