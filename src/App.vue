@@ -604,6 +604,7 @@
 import { ref } from 'vue'
 import {
 MenuIcon,
+InstagramIcon,
 XIcon,
 MessageCircleIcon,
 BookOpenIcon,
@@ -1345,7 +1346,7 @@ box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 
 .educainf-image img {
 width: 100%;
-height: 24rem;
+height: 28rem;
 object-fit: cover;
 background-color: #d1fae5;
 }
@@ -1504,7 +1505,7 @@ box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 
 .ensfun1-image img {
 width: 100%;
-height: 24rem;
+height: 28rem;
 object-fit: cover;
 background-color: #dbeafe;
 }
@@ -1731,7 +1732,7 @@ box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 
 .ensmed-image img {
 width: 100%;
-height: 24rem;
+height: 28rem;
 object-fit: cover;
 background-color: #fef3c7;
 }
