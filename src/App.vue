@@ -19,7 +19,7 @@
         <a @click="currentPage = 'ensfun1'">Ensino Fundamental I</a>
         <a @click="currentPage = 'ensfun2'">Ensino Fundamental II</a>
         <a @click="currentPage = 'ensmed'">Ensino Médio</a>
-        <button @click="openWhatsApp" class="btn-contact">CONTATOS</button>
+        <button @click="openWhatsApp" class="btn-contact">CONTATO</button>
       </nav>
       <!-- Mobile menu button -->
       <button @click="toggleMobileMenu" class="btn-mobile-menu" aria-label="Abrir menu mobile">
@@ -33,7 +33,7 @@
       <a @click="currentPage = 'ensfun1'; mobileMenuOpen = false">Ensino Fundamental I</a>
       <a @click="currentPage = 'ensfun2'; mobileMenuOpen = false">Ensino Fundamental II</a>
       <a @click="currentPage = 'ensmed'; mobileMenuOpen = false">Ensino Médio</a>
-      <button @click="openWhatsApp" class="btn-contact-mobile">CONTATOS</button>
+      <button @click="openWhatsApp" class="btn-contact-mobile">CONTATO</button>
     </div>
   </header>
 
@@ -52,10 +52,12 @@
               <span class="hero-title-highlight">MÃE NATUREZA</span>
             </h1>
           </div>
+          <h3>Segurança para crescer com confiança</h3>
           <p class="hero-description">
-            Educação de qualidade baseada em valores cristãos, estimulando o desenvolvimento
-            integral através de metodologias inovadoras como STEAM, Montessori e Waldorf.
+           Cuidar é parte do nosso DNA. Aqui, cada ambiente é pensado para acolher, proteger e estimular. Garantimos uma jornada de aprendizagem estruturada, com acompanhamento contínuo, tecnologia segura e equipe comprometida com o desenvolvimento integral do aluno.
           </p>
+          <p class="hero-description">Mais que uma escola, somos um <strong>espaço de crescimento com valores, fé, respeito e propósito.  </strong></p>
+        
           <div class="hero-buttons">
             <button @click="openWhatsApp" class="btn-whatsapp">
               <MessageCircleIcon class="icon-sm" />
@@ -84,29 +86,31 @@
       <div class="about-content">
         <div class="about-header">
           <h2>Nossa Missão</h2>
-          <p>Proporcionar educação de qualidade centrada nos valores do amor, fé e dedicação</p>
+          <p>Educar com princípios, inovação e acolhimento - formando seres homanos íntegros para transformar o mundo com propósito. </p>
         </div>
         <div class="about-cards">
-          <div class="card">
-            <div class="card-icon bg-emerald-light">
-              <BookOpenIcon class="icon-md emerald" />
-            </div>
-            <h3>Metodologias Inovadoras</h3>
-            <p>STEAM, Reggio Emilia, Maria Montessori e Pedagogia Waldorf</p>
-          </div>
+          
           <div class="card">
             <div class="card-icon bg-fuchsia-light">
               <HeartIcon class="icon-md fuchsia" />
             </div>
-            <h3>Valores Cristãos</h3>
-            <p>Educação baseada no amor, fé e responsabilidade</p>
+            <h3>Formar com valores cristãos e caráter sólido</h3>
+            <p>Promovemos uma educação fundamentada na Bíblia e nos princípios do Projeto Caráter Conta, cultivando o respeito, a responsabilidade, a cidadania, o zelo, a justiça e a sinceridade como base da convivência e da construção de um mundo melhor</p>
+          </div>
+          <div class="card">
+            <div class="card-icon bg-emerald-light">
+              <BookOpenIcon class="icon-md emerald" />
+            </div>
+            <h3>Ensinar com excelência pedagógica e inovação consciente</h3>
+        
+            <p>Unimos  metodologias ativas, STEAM, Reggio Emilia e Tecnologia Educacional para desenvolver o pensamento crítico, a criatividade, o protagonismo e o espírito investigativo - preparando nossos alunos para os desafios do século XXI, sem perder o sentido e a essência.</p>
           </div>
           <div class="card">
             <div class="card-icon bg-blue-light">
               <UsersIcon class="icon-md blue" />
             </div>
-            <h3>Desenvolvimento Integral</h3>
-            <p>Formação intelectual, emocional e social completa</p>
+            <h3>Acolyher com amor, escuta e intencionalidade</h3>
+            <p>Cuidamos do ser humano em sua totalidade - corpo, mente, emoções e espírito. Nossa Missão é criar um ambiente seguro, afetivo e inspirador, onde cada aluno se sinta visto, valorizado e desafiado a florescer com propósito.</p>
           </div>
         </div>
       </div>
@@ -117,7 +121,7 @@
       <div class="education-content">
         <div class="education-header">
           <h2>Níveis de Ensino</h2>
-          <p>Da educação infantil ao Ensino Médio</p>
+          <p>Da Educação Infantil ao Ensino Médio</p>
         </div>
         <div class="education-cards">
           <div class="edu-card" @click="currentPage = 'educainf'">
@@ -223,11 +227,7 @@
               <h3>Montessori</h3>
               <p>Método de ensino personalizado</p>
             </div>
-            <div class="metodologia-card">
-              <div class="metodologia-icon">W</div>
-              <h3>Waldorf</h3>
-              <p>Pedagogia holística</p>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -246,8 +246,8 @@
     <section class="page-hero">
       <div class="page-hero-content">
         <div class="page-hero-icon">👶</div>
-        <h1>Educação Infantil</h1>
-        <p>Desenvolvimento integral através do brincar, descobrir e aprender</p>
+        <h1>Educação Infantil - Onde o aprender florece com afeto</h1>
+        <p>Do brincar ao conhecer, cada detalhe é pensado para encantar</p>
       </div>
     </section>
 
@@ -293,18 +293,19 @@
           <div class="atividades-grid">
             <div class="atividade-card">
               <div class="atividade-icon">🎨</div>
-              <h3>Arte e Criatividade</h3>
-              <p>Desenvolvimento da expressão artística e criativa</p>
+              <h3>Desinvolvimento global e intencional</h3>
+              <p>A Educação Infantil no Colégio Mãe Natureza é fundamentada na abordagem Reggio Emilia, no brincar como linguagem essencial da infância e em propostas baseadas nas <strong>Metodologias Ativas.</strong></p>
+            <p>O ambiente é organizado para promover <strong>curiosidade, criatividade e autonomia,</strong> respeitando os ritmos individuais. Cada atividade tem um propósito pedagógico claro aliado ao desenvolvimento das funções cognitivas, motoras e socioemocionais.</p>
             </div>
             <div class="atividade-card">
               <div class="atividade-icon">🌱</div>
-              <h3>Contato com a Natureza</h3>
-              <p>Aprendizado ao ar livre e sustentabilidade</p>
+              <h3>Afeto e vínculos que ensinam</h3>
+              <p>Aqui, cada criança é vista como única e potente. O acolhimento amoroso, o cuidadfo diário e o vínculo com os educadores criam um ambiente seguro e estimulante. As descobertqs são celebradas com entusiasmo, e a família é parceira em cada passo da jornada.</p>
             </div>
             <div class="atividade-card">
               <div class="atividade-icon">👥</div>
-              <h3>Socialização</h3>
-              <p>Desenvolvimento de habilidades sociais</p>
+              <h3>Segurança, rotina e acolhimento</h3>
+              <p>Ambientes planejados, alimentação supervisionada, rotina estruturada e uma equipe comprometida com o bem-estar da criança garantem tranquilidade às famílias. Formamos com amor princípios e propósitos - desde os primeiros passos.</p>
             </div>
           </div>
         </div>
@@ -325,7 +326,8 @@
       <div class="page-hero-content">
         <div class="page-hero-icon">📚</div>
         <h1>Ensino Fundamental I</h1>
-        <p>Construindo bases sólidas para o aprendizado e desenvolvimento acadêmico</p>
+        <p>Aprender com propósito e encantamento</p>
+        <p>Conhecimento vivo, experiências reais e valores que formam.</p>
       </div>
     </section>
 
@@ -361,30 +363,24 @@
               <div class="area-icon">
                 <BookOpenIcon class="icon-md" />
               </div>
-              <h3>Língua Portuguesa</h3>
-              <p>Leitura, escrita e interpretação</p>
+              <h3>Metodologias que desenvolvem habilidades</h3>
+              <p>Com o material da <strong>Geekie</strong> e uma proposta pedagógica que integra <strong>Metodologias Ativas, Reggio Emilia, projetos integradores, salas temáticas e gamificação,</strong> nossos alunos desenvolvem competências como <strong>raciocínio lógico, leitura crítica e resolução de problemas,</strong> de forma significativa e conectada ao mundo atual</p>
             </div>
             <div class="area-card">
               <div class="area-icon">
                 <span class="area-number">123</span>
               </div>
-              <h3>Matemática</h3>
-              <p>Raciocínio lógico e cálculos</p>
+              <h3>Emoção e vínculo no processo de aprender</h3>
+              <p>A cada nova experiência, o brilho nos olhos das crianças mostra que estão aprendendo com alegria. Com aulas de <strong>Robótica, Programação, Ciências em laboratório, dois idiomas</strong> (Inglês e Libras) e vivências cristãs, estimulamos o engajamento afetivo e a construação do conhecimento com sentido.</p>
             </div>
             <div class="area-card">
               <div class="area-icon">
                 <span class="area-emoji">🌍</span>
               </div>
-              <h3>Ciências</h3>
-              <p>Descoberta do mundo</p>
+              <h3>Estrutura que acolhe e protege</h3>
+              <p>Oferecemos uma base segura com acompanhamentop individualizado, ambientes estimulantes e valores cristãos que guiam nossa prática. Aqui, o aprendizado é construido com propósito e segurança.</p>
             </div>
-            <div class="area-card">
-              <div class="area-icon">
-                <span class="area-emoji">🎨</span>
-              </div>
-              <h3>Arte e Cultura</h3>
-              <p>Expressão e criatividade</p>
-            </div>
+          
           </div>
         </div>
       </div>
@@ -404,7 +400,8 @@
       <div class="page-hero-content">
         <div class="page-hero-icon">🎓</div>
         <h1>Ensino Fundamental II</h1>
-        <p>Preparação para novos desafios com aprofundamento do conhecimento</p>
+        <p>Protagonismo, tecnologia e construção de identidade</p>
+        <p>Do conhecimento à ação, uma etapa que transforma</p>
       </div>
     </section>
 
@@ -441,28 +438,16 @@
           <h2>Disciplinas Principais</h2>
           <div class="disciplinas-grid">
             <div class="disciplina-card">
-              <h3>Línguas</h3>
-              <p>Português, Inglês e Espanhol</p>
+              <h3>Aprender com profundidade e sentido</h3>
+              <p>Com o material Geekie e práticas pedagógicas qye envolvem <strong>projetos Interdisciplinares, laboratórios, aulas de campo e sala invertida,</strong> nossos alunos desenvolvem habilidades essenciais para o mundo em constante mudança. A tecnologia é integrada à rotina com o uso de <strong>CHromeBooks,</strong> promovendo a autonomia a aprendizagem personalizada.</p>
             </div>
             <div class="disciplina-card">
-              <h3>Exatas</h3>
-              <p>Matemática e Física</p>
+              <h3>Conexão com a fase e com o propósito</h3>
+              <p>Essa é uma fase de mudanças e desconbertas - Por isso, nossa proposta considera as emoções, os valores e os desafios do pré-adolescente. Projetos como <strong>Empreendedorismo, Programação, Robótica e Cultura Digital</strong> despertam o interesse e promovem o engajamento com temas que fazem sentido para os alunos.</p>
             </div>
             <div class="disciplina-card">
-              <h3>Humanas</h3>
-              <p>História e Geografia</p>
-            </div>
-            <div class="disciplina-card">
-              <h3>Ciências</h3>
-              <p>Biologia e Química</p>
-            </div>
-            <div class="disciplina-card">
-              <h3>Arte e Cultura</h3>
-              <p>Artes e Educação Física</p>
-            </div>
-            <div class="disciplina-card">
-              <h3>Tecnologia</h3>
-              <p>Informática e Robótica</p>
+              <h3>Apoio, limites e estrutura sólida</h3>
+              <p>Odferecemos uma base segura e acolhedora, com regras claras, acompanhamento emocional e orientações constantes. Trabalhamos com a formação do caráter, a valorização da fé e o compromisso com a verdade, formando jovens preparados para fazer boas escolhas.</p>
             </div>
           </div>
         </div>
@@ -483,7 +468,8 @@
       <div class="page-hero-content">
         <div class="page-hero-icon">🚀</div>
         <h1>Ensino Médio</h1>
-        <p>Preparação completa para o futuro acadêmico e profissional</p>
+        <p>Excelência, autonomia e propósito de vida</p>
+        <p>Preparar para o ENEM e para a vida com identidade e valores</p>
       </div>
     </section>
 
@@ -517,23 +503,18 @@
           <div class="conhecimento-grid">
             <div class="conhecimento-card">
               <div class="conhecimento-icon">📖</div>
-              <h3>Linguagens</h3>
-              <p>Português, Literatura, Inglês</p>
+              <h3>Autodesempenho e foco no futuro</h3>
+              <p>No Ensino Médio, oferecemos um currículo robusto com <strong>preparação para vestibulares e ENEM,</strong> trilhas formativas personalizadas, simulados, tutorial e o usoi intensivo da plataforma <strong>Geekie One</strong> com <strong>ChromeBooks individuais.</strong> O pensamento crítico, a fluência digital e a autonomia intelectual são amplamente desenvolvidos.</p>
             </div>
             <div class="conhecimento-card">
               <div class="conhecimento-icon">🔢</div>
-              <h3>Matemática</h3>
-              <p>Álgebra, Geometria, Estatística</p>
+              <h3>Escolhas com propósito e construção de identidade</h3>
+              <p>Sabemos que o Ensino Médio é decisivo. Por isso, promovemos vivÊncias que ajudam o aluno a entender <strong>quem ele é e quem deseja se tornar.</strong> Trabalhamos projetos de vida, orientação vocacional, rodas de conversa e momentos de escuta que apoiam esse processo de autoconhecimento e decisão.</p>
             </div>
             <div class="conhecimento-card">
               <div class="conhecimento-icon">🧪</div>
-              <h3>Ciências da Natureza</h3>
-              <p>Física, Química, Biologia</p>
-            </div>
-            <div class="conhecimento-card">
-              <div class="conhecimento-icon">🌍</div>
-              <h3>Ciências Humanas</h3>
-              <p>História, Geografia, Sociologia</p>
+              <h3>Segurança emocional e espiritual para seguir em frente</h3>
+              <p>Oferecemso um ambiente que equilibra exigÊncia acadêmica com suporte emocional, fé cristã e uma estrutura sólida de acompanhamento. Aqui, o aluno é preparado para ser excelente, ético e humano - em qualquer caminho que escolher. </p>
             </div>
           </div>
         </div>
@@ -550,7 +531,7 @@
         </div>
         <div class="footer-text">
           <h3 style="margin-bottom: 2%;">Colégio Mãe Natureza</h3>
-          <span>Educação com amor e dedicação</span>
+          <span>Princípios e tecnologia na educação</span>
         </div>
       </div>
       <div class="footer-menu">
