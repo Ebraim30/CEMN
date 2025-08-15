@@ -125,12 +125,12 @@
         </div>
         <div class="education-cards">
           <div class="edu-card" @click="currentPage = 'educainf'">
-            <div class="edu-icon">👶</div>
+            <img src="../public/preincio.jpg" alt="Educação Infantil Icon" class="edu-icon" />
             <h3>Educação Infantil</h3>
             <p>Desenvolvimento através do brincar</p>
           </div>
           <div class="edu-card" @click="currentPage = 'ensfun1'">
-            <div class="edu-icon">📚</div>
+            <img src="../public/fund1incio.jpg" alt="Ensino Fundamental I Icon" class="edu-icon" />
             <h3>Fundamental I</h3>
             <p>Base sólida para o aprendizado</p>
           </div>
@@ -140,7 +140,7 @@
             <p>Preparação para novos desafios</p>
           </div>
           <div class="edu-card" @click="currentPage = 'ensmed'">
-            <div class="edu-icon">🚀</div>
+            <img src="../public/ensimedinicio.jpg" alt="Ensino Médio Icon" class="edu-icon" />
             <h3>Ensino Médio</h3>
             <p>Preparação para o futuro</p>
           </div>
@@ -292,13 +292,13 @@
         <div class="atividades-section">
           <div class="atividades-grid">
             <div class="atividade-card">
-              <div class="atividade-icon">🎨</div>
+              <img src="../public/preesquerda.jpg" alt="Atividade de arte" />
               <h3>Desinvolvimento global e intencional</h3>
               <p>A Educação Infantil no Colégio Mãe Natureza é fundamentada na abordagem Reggio Emilia, no brincar como linguagem essencial da infância e em propostas baseadas nas <strong>Metodologias Ativas.</strong></p>
             <p>O ambiente é organizado para promover <strong>curiosidade, criatividade e autonomia,</strong> respeitando os ritmos individuais. Cada atividade tem um propósito pedagógico claro aliado ao desenvolvimento das funções cognitivas, motoras e socioemocionais.</p>
             </div>
             <div class="atividade-card">
-              <div class="atividade-icon">🌱</div>
+            <img src="../public/premeio.jpg" alt="Atividade de arte" />
               <h3>Afeto e vínculos que ensinam</h3>
               <p>Aqui, cada criança é vista como única e potente. O acolhimento amoroso, o cuidadfo diário e o vínculo com os educadores criam um ambiente seguro e estimulante. As descobertqs são celebradas com entusiasmo, e a família é parceira em cada passo da jornada.</p>
             </div>
@@ -358,18 +358,26 @@
 
         <div class="areas-section">
           <h2>Áreas de Conhecimento</h2>
+          <br>
+                    <br>
+
+                              <br>
+
           <div class="areas-grid">
             <div class="area-card">
               <div class="area-icon">
-                <BookOpenIcon class="icon-md" />
+                <img src="../public/fund1esquerda.jpg" alt="Ensino Fundamental I Icon" class="area-emoji" />
               </div>
+              <br>
+              <br>
               <h3>Metodologias que desenvolvem habilidades</h3>
               <p>Com o material da <strong>Geekie</strong> e uma proposta pedagógica que integra <strong>Metodologias Ativas, Reggio Emilia, projetos integradores, salas temáticas e gamificação,</strong> nossos alunos desenvolvem competências como <strong>raciocínio lógico, leitura crítica e resolução de problemas,</strong> de forma significativa e conectada ao mundo atual</p>
             </div>
             <div class="area-card">
               <div class="area-icon">
-                <span class="area-number">123</span>
+                <img src="../public/fund1meio.jpg" alt="Ensino Fundamental I Icon" class="area-emoji" />
               </div>
+              <br><br>
               <h3>Emoção e vínculo no processo de aprender</h3>
               <p>A cada nova experiência, o brilho nos olhos das crianças mostra que estão aprendendo com alegria. Com aulas de <strong>Robótica, Programação, Ciências em laboratório, dois idiomas</strong> (Inglês e Libras) e vivências cristãs, estimulamos o engajamento afetivo e a construação do conhecimento com sentido.</p>
             </div>
@@ -694,6 +702,11 @@ font-size: 1.25rem;
 font-weight: 700;
 color: white;
 }
+.area-card .area-emoji {
+  width: 12200px;     /* aumenta horizontalmente */
+  height: 200px;    /* altura fixa */
+  object-fit: cover; /* corta o excesso sem distorcer */
+}
 
 .nav-desktop {
 display: none;
@@ -966,7 +979,11 @@ cursor: default;
 .card:hover {
 box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 }
-
+.atividade-card img {
+  width: 300px;     /* aumenta para o lado */
+  height: 226px;    /* altura fixa */
+  object-fit: cover; /* evita distorção */
+}
 .card-icon {
 width: 4rem;
 height: 4rem;
@@ -1401,6 +1418,11 @@ border-radius: 1rem;
 box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 text-align: center;
 transition: box-shadow 0.3s;
+}
+.edu-card .edu-icon {
+  width: 325px;   /* aumenta para o lado */
+  height: 245px;  /* altura fixa */
+  object-fit: cover; /* corta se passar do limite, sem distorcer */
 }
 
 .atividade-card:hover {
