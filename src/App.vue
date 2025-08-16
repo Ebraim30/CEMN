@@ -135,7 +135,7 @@
             <p>Base sólida para o aprendizado</p>
           </div>
           <div class="edu-card" @click="currentPage = 'ensfun2'">
-            <div class="edu-icon">🎓</div>
+            <img src="../public/fund2incio.jpg" alt="Ensino Fundamental II Icon" class="edu-icon" />
             <h3>Fundamental II</h3>
             <p>Preparação para novos desafios</p>
           </div>
@@ -303,7 +303,7 @@
               <p>Aqui, cada criança é vista como única e potente. O acolhimento amoroso, o cuidadfo diário e o vínculo com os educadores criam um ambiente seguro e estimulante. As descobertqs são celebradas com entusiasmo, e a família é parceira em cada passo da jornada.</p>
             </div>
             <div class="atividade-card">
-              <div class="atividade-icon">👥</div>
+              <img src="../public/predireitaa.jpg" alt="Atividade de arte" />
               <h3>Segurança, rotina e acolhimento</h3>
               <p>Ambientes planejados, alimentação supervisionada, rotina estruturada e uma equipe comprometida com o bem-estar da criança garantem tranquilidade às famílias. Formamos com amor princípios e propósitos - desde os primeiros passos.</p>
             </div>
@@ -383,8 +383,10 @@
             </div>
             <div class="area-card">
               <div class="area-icon">
-                <span class="area-emoji">🌍</span>
+                <img src="../public/fund1direitaa.jpg" alt="Ensino Fundamental I Icon" class="area-emoji" />
               </div>
+              <br>
+              <br>
               <h3>Estrutura que acolhe e protege</h3>
               <p>Oferecemos uma base segura com acompanhamentop individualizado, ambientes estimulantes e valores cristãos que guiam nossa prática. Aqui, o aprendizado é construido com propósito e segurança.</p>
             </div>
@@ -446,14 +448,17 @@
           <h2>Disciplinas Principais</h2>
           <div class="disciplinas-grid">
             <div class="disciplina-card">
+              <img src="../public/fund2esquerda.jpg" alt="Ensino Fundamental II Icon" class="area-emoji" />
               <h3>Aprender com profundidade e sentido</h3>
               <p>Com o material Geekie e práticas pedagógicas qye envolvem <strong>projetos Interdisciplinares, laboratórios, aulas de campo e sala invertida,</strong> nossos alunos desenvolvem habilidades essenciais para o mundo em constante mudança. A tecnologia é integrada à rotina com o uso de <strong>CHromeBooks,</strong> promovendo a autonomia a aprendizagem personalizada.</p>
             </div>
             <div class="disciplina-card">
+              <img src="../public/fund2meio.jpg" alt="Ensino Fundamental II Icon" class="area-emoji" />
               <h3>Conexão com a fase e com o propósito</h3>
               <p>Essa é uma fase de mudanças e desconbertas - Por isso, nossa proposta considera as emoções, os valores e os desafios do pré-adolescente. Projetos como <strong>Empreendedorismo, Programação, Robótica e Cultura Digital</strong> despertam o interesse e promovem o engajamento com temas que fazem sentido para os alunos.</p>
             </div>
             <div class="disciplina-card">
+              <img src="../public/fund2direita.jpg" alt="Ensino Fundamental II Icon" class="area-emoji" />
               <h3>Apoio, limites e estrutura sólida</h3>
               <p>Odferecemos uma base segura e acolhedora, com regras claras, acompanhamento emocional e orientações constantes. Trabalhamos com a formação do caráter, a valorização da fé e o compromisso com a verdade, formando jovens preparados para fazer boas escolhas.</p>
             </div>
@@ -510,12 +515,12 @@
           <h2>Áreas de Conhecimento</h2>
           <div class="conhecimento-grid">
             <div class="conhecimento-card">
-              <div class="conhecimento-icon">📖</div>
+              <img src="../public/ensmeddireita.jpg" alt="Matemática" />
               <h3>Autodesempenho e foco no futuro</h3>
               <p>No Ensino Médio, oferecemos um currículo robusto com <strong>preparação para vestibulares e ENEM,</strong> trilhas formativas personalizadas, simulados, tutorial e o usoi intensivo da plataforma <strong>Geekie One</strong> com <strong>ChromeBooks individuais.</strong> O pensamento crítico, a fluência digital e a autonomia intelectual são amplamente desenvolvidos.</p>
             </div>
             <div class="conhecimento-card">
-              <div class="conhecimento-icon">🔢</div>
+              <img src="../public/ensmedmeio.jpg" alt="Ciências" />
               <h3>Escolhas com propósito e construção de identidade</h3>
               <p>Sabemos que o Ensino Médio é decisivo. Por isso, promovemos vivÊncias que ajudam o aluno a entender <strong>quem ele é e quem deseja se tornar.</strong> Trabalhamos projetos de vida, orientação vocacional, rodas de conversa e momentos de escuta que apoiam esse processo de autoconhecimento e decisão.</p>
             </div>
@@ -640,7 +645,16 @@ min-height: 100vh;
 width: 100%;
 font-family: 'Inter', sans-serif;
 }
-
+.conhecimento-grid .conhecimento-card img {
+  width: 350px;     /* largura maior */
+  height: 200px;    /* altura fixa */
+  object-fit: cover; /* preenche sem distorcer */
+}
+.disciplinas-grid .disciplina-card .area-emoji {
+  width: 400px;     /* aumenta horizontalmente */
+  height: 300px;    /* altura fixa */
+  object-fit: cover; /* preenche sem distorcer */
+}
 .header {
 background-color: #059669;
 box-shadow:
