@@ -178,7 +178,7 @@
             </div>
             <div class="edu-card" @click="currentPage = 'ensfun1'">
               <img
-                src="../public/fund1incio.jpg"
+                src="../public/fund1inicio.jpg"
                 alt="Ensino Fundamental I Icon"
                 class="edu-icon"
               />
@@ -219,7 +219,7 @@
     </div>
 
     <!-- NOSSA HISTÓRIA PAGE -->
-    <div v-if="currentPage === 'nossahistoria'">
+      <div v-if="currentPage === 'nossahistoria'">
       <div class="page-header">
         <button @click="currentPage = 'home'" class="btn-back">
           <ArrowLeftIcon class="icon-sm" />
@@ -227,85 +227,75 @@
         </button>
       </div>
 
-      <section class="hero">
+        <section class="hero">
         <div class="hero-content">
           <div class="hero-left">
             <div class="hero-icon-circle">
               <img src="../public/logo.png" alt="Logo" class="hero-icon" />
             </div>
-
-            <h1 class="hero-title">NOSSA HISTÓRIA</h1>
-            <div class="hero-title">
-              <div class="hero-title-highlight">
-                <p>UMA JORNADA DE DEDICAÇÂO À EDUCAÇÃO DE QUALIDADE</p>
-              </div>
+            <div>
+              <h1 class="hero-title">
+                NOSSA HISTÓRIA<br />
+                <span class="hero-title-highlight" style="font-size: 35px;">UMA JORNADA DE DEDICAÇÂO À EDUCAÇÃO DE QUALIDADE</span>
+              </h1>
+            </div>
+            <div class="hero-buttons">
+              <button @click="openWhatsApp" class="btn-whatsapp">
+                <MessageCircleIcon class="icon-sm" />
+                <span>Agende uma visita</span>
+              </button>
             </div>
           </div>
-          <div class="hero-right">
-            <div class="hero-image-wrapper">
-              <img
-                src="../public/foto2.jpg"
-                alt="História da escola"
-                class="hero-image"
-                :class="hero - right"
-              />
+          
+          
+              <img src="../public/foto2.jpg" alt="Ensino Fundamental II" class="fund2-img"/>
+        </div>
+      </section>      
+   
+
+     <div class="conhecimento-section">
+        <div class="conhecimento-grid">
+          <div class="conhecimento-card">
+            <img src="../public/hisesquerda.jpg" alt="Matemática" class="img-card" />
+            <div class="txt-card">
+              <h3 style="text-align: center !important;">O Sonho que Virou Projeto
+</h3>
+             <p>
+                O Colégio Mãe Natureza nasceu de um propósito claro: oferecer educação de excelência, com valores sólidos e preço acessível.
+O professor Osnildo João de Lima e sua esposa Iraci de Lima, movidos por visão e determinação, transformaram um terreno repleto de árvores em um espaço de conhecimento, unindo estrutura, inovação e compromisso com o futuro.
+Assim como está escrito: “Escreve a visão e torna-a bem legível sobre tábuas, para que possa ser lida facilmente.” (Habacuque 2:2) — foi com clareza e propósito que essa história começou a ser construída.
+
+                </p>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/hismeio.jpg" alt="Ciências" class="img-card" />
+            <div class="txt-card">
+            <h3 style="text-align: center !important;">Onde o Afeto Cria Raízes
+</h3>
+            <p>
+                  Muito antes de ser uma escola, o Mãe Natureza já vivia no coração de uma família que acolhia filhos biológicos, adotivos e amigos com o mesmo amor.
+Aqui, cada aluno é cultivado como uma semente única, recebendo cuidado, incentivo e um ambiente fértil para florescer.
+Vivemos o que a Palavra nos ensina: “Ensina a criança no caminho em que deve andar, e, ainda quando for velho, não se desviará dele.” (Provérbios 22:6) — porque acreditamos que o amor, quando plantado cedo, permanece para sempre.
+
+                </p>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/hisdireita.jpg" alt="Linguagens" class="img-card"/>
+            <div class="txt-card">
+           <h3 style="text-align: center !important;">Segurança para Crescer
+</h3>
+                <p>
+                 Com mais de 30 anos de trajetória, somos um porto seguro para famílias que confiam seus filhos a um colégio que protege, orienta e fortalece.
+Enraizados em princípios cristãos e educacionais, seguimos crescendo, expandindo nossos galhos para novos projetos e mantendo viva a certeza de que Deus está no controle de cada capítulo da nossa história.
+Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu libertador; o meu Deus é o meu rochedo, em quem me refugio.” (Salmos 18:2) — Ele é quem nos sustenta e nos guarda.
+                </p>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="historia-content">
-        <div class="historia-container">
-          <div class="historia-grid">
-            <div class="historia-text">
-              <h2>Nossa História</h2>
-              <p>
-                O Centro Educacional Mãe Natureza (CEMN) é uma instituição fundamentada em
-                perseverança, fé e dedicação, centrada nos valores do amor. Priorizando Educação,
-                Inclusão Social, Princípios Cristãos e Sustentabilidade.
-              </p>
-              <div class="valores-list">
-                <div class="valor-item">
-                  <div class="valor-check">✓</div>
-                  <span>Educação de qualidade</span>
-                </div>
-                <div class="valor-item">
-                  <div class="valor-check">✓</div>
-                  <span>Valores cristãos</span>
-                </div>
-                <div class="valor-item">
-                  <div class="valor-check">✓</div>
-                  <span>Sustentabilidade</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="historia-image"></div>
-          </div>
-
-          <div class="metodologias-section">
-            <h2>Metodologias Utilizadas</h2>
-            <div class="metodologias-grid">
-              <div class="metodologia-card">
-                <div class="metodologia-icon">S</div>
-                <h3>STEAM</h3>
-                <p>Ciência, Tecnologia, Engenharia, Arte e Matemática</p>
-              </div>
-              <div class="metodologia-card">
-                <div class="metodologia-icon">R</div>
-                <h3>Reggio Emilia</h3>
-                <p>Abordagem educacional inovadora</p>
-              </div>
-              <div class="metodologia-card">
-                <div class="metodologia-icon">M</div>
-                <h3>Montessori</h3>
-                <p>Método de ensino personalizado</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+ </div>
 
     <!-- EDUCAÇÃO INFANTIL PAGE -->
      <div v-if="currentPage === 'educainf'">
@@ -325,7 +315,7 @@
             <div>
               <h1 class="hero-title">
                 EDUCAÇÃO INFANTIL<br />
-                <span class="hero-title-highlight">DO BRINCAR AO CONHECER, CADA DETALHE É PENSADO PARA ENCANTAR</span>
+                <span class="hero-title-highlight" style="font-size: 35px;">DO BRINCAR AO CONHECER, CADA DETALHE É PENSADO PARA ENCANTAR</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -343,7 +333,7 @@
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">Nossa Abordagem</h2>
+        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/preesquerda.jpg" alt="Matemática" class="img-card" />
@@ -399,8 +389,8 @@
             </div>
             <div>
               <h1 class="hero-title">
-                ENSINO FUNDAMENTAL I<br />
-                <span class="hero-title-highlight">APRENDER COM PROPÓSITO E ENCANTAMENTO</span>
+                <span style="nowrap">FUNDAMENTAL I</span><br />
+                <span class="hero-title-highlight" style="font-size: 35px;">APRENDER COM PROPÓSITO E ENCANTAMENTO</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -480,8 +470,8 @@
             </div>
             <div>
               <h1 class="hero-title">
-                ENSINO FUNDAMENTAL II<br />
-                <span class="hero-title-highlight">Do conhecimento à ação, uma etapa que transforma</span>
+                <span style="nowrap">FUNDAMENTAL II </span><br />
+                <span class="hero-title-highlight" style="font-size: 35px;">DO CONHECIMENTO À AÇÂO, UMA ETAPA QUE TRANSFORMA</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -562,7 +552,7 @@
             <div>
               <h1 class="hero-title">
                 ENSINO MÉDIO<br />
-                <span class="hero-title-highlight">EXCELÊNCIA, AUTONOMIA E PROPÓSITO DE VIDA</span>
+                <span class="hero-title-highlight" style="font-size: 35px;">EXCELÊNCIA, AUTONOMIA E PROPÓSITO DE VIDA</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -729,7 +719,7 @@ body {
 .container {
   min-height: 100vh;
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 .conhecimento-grid .conhecimento-card img {
   width: 486px; /* largura maior */
@@ -921,6 +911,7 @@ body {
   width: 170px;
   display: block;
   height: auto;
+  padding-bottom: 5%;
 }
 
 .hero-title {
@@ -1171,6 +1162,7 @@ body {
 }
 .footer-text {
   margin-left: 15%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .edu-card {
   background-color: rgba(255 255 255 / 0.1);
@@ -1917,6 +1909,7 @@ body {
   background-color: #111827;
   color: white;
   padding: 4rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-content {
