@@ -308,7 +308,7 @@
     </div>
 
     <!-- EDUCAÇÃO INFANTIL PAGE -->
-    <div v-if="currentPage === 'educainf'">
+     <div v-if="currentPage === 'educainf'">
       <div class="page-header">
         <button @click="currentPage = 'home'" class="btn-back">
           <ArrowLeftIcon class="icon-sm" />
@@ -316,97 +316,74 @@
         </button>
       </div>
 
-      <section class="page-hero">
-        <div class="page-hero-content">
-          <div class="page-hero-icon">👶</div>
-          <h1>Educação Infantil - Onde o aprender florece com afeto</h1>
-          <p>Do brincar ao conhecer, cada detalhe é pensado para encantar</p>
-        </div>
-      </section>
-
-      <section class="educainf-content">
-        <div class="educainf-container">
-          <div class="educainf-grid">
-            <div class="educainf-image">
-              <img src="../public/foto3.jpg" alt="Educação Infantil" />
+        <section class="hero">
+        <div class="hero-content">
+          <div class="hero-left">
+            <div class="hero-icon-circle">
+              <img src="../public/logo.png" alt="Logo" class="hero-icon" />
             </div>
-            <div class="educainf-text">
-              <h2>Nossa Abordagem</h2>
-              <p>
-                Na Educação Infantil, priorizamos o desenvolvimento integral da criança através de
-                atividades lúdicas, respeitando o tempo e as características individuais de cada
-                aluno.
-              </p>
-              <div class="abordagem-list">
-                <div class="abordagem-item">
-                  <div class="abordagem-check">✓</div>
-                  <div>
-                    <h3>Aprendizado através do brincar</h3>
-                    <p>Atividades lúdicas que estimulam o desenvolvimento</p>
-                  </div>
-                </div>
-                <div class="abordagem-item">
-                  <div class="abordagem-check">✓</div>
-                  <div>
-                    <h3>Desenvolvimento socioemocional</h3>
-                    <p>Formação de valores e habilidades sociais</p>
-                  </div>
-                </div>
-                <div class="abordagem-item">
-                  <div class="abordagem-check">✓</div>
-                  <div>
-                    <h3>Estímulo à criatividade</h3>
-                    <p>Atividades artísticas e expressivas</p>
-                  </div>
-                </div>
-              </div>
+            <div>
+              <h1 class="hero-title">
+                EDUCAÇÃO INFANTIL<br />
+                <span class="hero-title-highlight">DO BRINCAR AO CONHECER, CADA DETALHE É PENSADO PARA ENCANTAR</span>
+              </h1>
+            </div>
+            <div class="hero-buttons">
+              <button @click="openWhatsApp" class="btn-whatsapp">
+                <MessageCircleIcon class="icon-sm" />
+                <span>Agende uma visita</span>
+              </button>
             </div>
           </div>
+          
+          
+              <img src="../public/foto3.jpg" alt="Ensino Fundamental II" class="fund2-img"/>
+        </div>
+      </section>      
+   
 
-          <div class="atividades-section">
-            <div class="atividades-grid">
-              <div class="atividade-card">
-                <img src="../public/preesquerda.jpg" alt="Atividade de arte" />
-                <h3>Desinvolvimento global e intencional</h3>
-                <p>
-                  A Educação Infantil no Colégio Mãe Natureza é fundamentada na abordagem Reggio
+     <div class="conhecimento-section">
+        <h2 class="title-conhecimento">Nossa Abordagem</h2>
+        <div class="conhecimento-grid">
+          <div class="conhecimento-card">
+            <img src="../public/preesquerda.jpg" alt="Matemática" class="img-card" />
+            <div class="txt-card">
+              <h3 style="text-align: center !important;">Desinvolvimento global e intencional</h3>
+             <p>
+                A Educação Infantil no Colégio Mãe Natureza é fundamentada na abordagem Reggio
                   Emilia, no brincar como linguagem essencial da infância e em propostas baseadas
                   nas <strong>Metodologias Ativas.</strong>
                 </p>
-                <p>
-                  O ambiente é organizado para promover
-                  <strong>curiosidade, criatividade e autonomia,</strong> respeitando os ritmos
-                  individuais. Cada atividade tem um propósito pedagógico claro aliado ao
-                  desenvolvimento das funções cognitivas, motoras e socioemocionais.
-                </p>
-              </div>
-              <div class="atividade-card">
-                <img src="../public/premeio.jpg" alt="Atividade de arte" />
-                <h3>Afeto e vínculos que ensinam</h3>
-                <p>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/premeio.jpg" alt="Ciências" class="img-card" />
+            <div class="txt-card">
+            <h3 style="text-align: center !important;">Afeto e vínculos que ensinam</h3>
+            <p>
                   Aqui, cada criança é vista como única e potente. O acolhimento amoroso, o cuidadfo
                   diário e o vínculo com os educadores criam um ambiente seguro e estimulante. As
                   descobertqs são celebradas com entusiasmo, e a família é parceira em cada passo da
                   jornada.
                 </p>
-              </div>
-              <div class="atividade-card">
-                <img src="../public/predireitaa.jpg" alt="Atividade de arte" />
-                <h3>Segurança, rotina e acolhimento</h3>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/predireitaa.jpg" alt="Linguagens" class="img-card"/>
+            <div class="txt-card">
+           <h3 style="text-align: center !important;">Segurança, rotina e acolhimento</h3>
                 <p>
-                  Ambientes planejados, alimentação supervisionada, rotina estruturada e uma equipe
+                 Ambientes planejados, alimentação supervisionada, rotina estruturada e uma equipe
                   comprometida com o bem-estar da criança garantem tranquilidade às famílias.
                   Formamos com amor princípios e propósitos - desde os primeiros passos.
                 </p>
-              </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-
+      </div>
+ </div>
     <!-- ENSINO FUNDAMENTAL I PAGE -->
-    <div v-if="currentPage === 'ensfun1'">
+         <div v-if="currentPage === 'ensfun1'">
       <div class="page-header">
         <button @click="currentPage = 'home'" class="btn-back">
           <ArrowLeftIcon class="icon-sm" />
@@ -414,62 +391,41 @@
         </button>
       </div>
 
-      <section class="page-hero">
-        <div class="page-hero-content">
-          <div class="page-hero-icon">📚</div>
-          <h1>Ensino Fundamental I</h1>
-          <p>Aprender com propósito e encantamento</p>
-          <p>Conhecimento vivo, experiências reais e valores que formam.</p>
-        </div>
-      </section>
-
-      <section class="ensfun1-content">
-        <div class="ensfun1-container">
-          <div class="ensfun1-grid">
-            <div class="ensfun1-text">
-              <h2>Metodologia Diferenciada</h2>
-              <p>
-                No Ensino Fundamental I, focamos na alfabetização e letramento, desenvolvimento do
-                raciocínio lógico-matemático e formação de valores, sempre respeitando o ritmo
-                individual de cada criança.
-              </p>
-              <div class="anos-grid">
-                <div class="ano-card">
-                  <h3>1º ao 3º ano</h3>
-                  <p>Alfabetização e letramento</p>
-                </div>
-                <div class="ano-card">
-                  <h3>4º ao 5º ano</h3>
-                  <p>Consolidação do aprendizado</p>
-                </div>
-              </div>
+        <section class="hero">
+        <div class="hero-content">
+          <div class="hero-left">
+            <div class="hero-icon-circle">
+              <img src="../public/logo.png" alt="Logo" class="hero-icon" />
             </div>
-            <div class="ensfun1-image">
-              <img src="../public/foto4.jpg" alt="Ensino Fundamental I" />
+            <div>
+              <h1 class="hero-title">
+                ENSINO FUNDAMENTAL I<br />
+                <span class="hero-title-highlight">APRENDER COM PROPÓSITO E ENCANTAMENTO</span>
+              </h1>
+            </div>
+            <div class="hero-buttons">
+              <button @click="openWhatsApp" class="btn-whatsapp">
+                <MessageCircleIcon class="icon-sm" />
+                <span>Agende uma visita</span>
+              </button>
             </div>
           </div>
+          
+          
+              <img src="../public/foto4.jpg" alt="Ensino Fundamental II" class="fund2-img"/>
+        </div>
+      </section>      
+   
 
-          <div class="areas-section">
-            <h2>Áreas de Conhecimento</h2>
-            <br />
-            <br />
-
-            <br />
-
-            <div class="areas-grid">
-              <div class="area-card">
-                <div class="area-icon">
-                  <img
-                    src="../public/fund1esquerda.jpg"
-                    alt="Ensino Fundamental I Icon"
-                    class="area-emoji"
-                  />
-                </div>
-                <br />
-                <br />
-                <h3>Metodologias que desenvolvem habilidades</h3>
-                <p>
-                  Com o material da <strong>Geekie</strong> e uma proposta pedagógica que integra
+     <div class="conhecimento-section">
+        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
+        <div class="conhecimento-grid">
+          <div class="conhecimento-card">
+            <img src="../public/fund1esquerda.jpg" alt="Matemática" class="img-card" />
+            <div class="txt-card">
+              <h3 style="text-align: center !important;">Metodologias que desenvolvem habilidades</h3>
+             <p>
+                 Com o material da <strong>Geekie</strong> e uma proposta pedagógica que integra
                   <strong
                     >Metodologias Ativas, Reggio Emilia, projetos integradores, salas temáticas e
                     gamificação,</strong
@@ -478,48 +434,35 @@
                   <strong>raciocínio lógico, leitura crítica e resolução de problemas,</strong> de
                   forma significativa e conectada ao mundo atual
                 </p>
-              </div>
-              <div class="area-card">
-                <div class="area-icon">
-                  <img
-                    src="../public/fund1meio.jpg"
-                    alt="Ensino Fundamental I Icon"
-                    class="area-emoji"
-                  />
-                </div>
-                <br /><br />
-                <h3>Emoção e vínculo no processo de aprender</h3>
-                <p>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/fund1meio.jpg" alt="Ciências" class="img-card" />
+            <div class="txt-card">
+            <h3 style="text-align: center !important;">Emoção e vínculo no processo de aprender</h3>
+            <p>
                   A cada nova experiência, o brilho nos olhos das crianças mostra que estão
                   aprendendo com alegria. Com aulas de
                   <strong>Robótica, Programação, Ciências em laboratório, dois idiomas</strong>
                   (Inglês e Libras) e vivências cristãs, estimulamos o engajamento afetivo e a
                   construação do conhecimento com sentido.
                 </p>
-              </div>
-              <div class="area-card">
-                <div class="area-icon">
-                  <img
-                    src="../public/fund1direitaa.jpg"
-                    alt="Ensino Fundamental I Icon"
-                    class="area-emoji"
-                  />
-                </div>
-                <br />
-                <br />
-                <h3>Estrutura que acolhe e protege</h3>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/fund1direitaa.jpg" alt="Linguagens" class="img-card"/>
+            <div class="txt-card">
+           <h3 style="text-align: center !important;">Estrutura que acolhe e protege</h3>
                 <p>
-                  Oferecemos uma base segura com acompanhamentop individualizado, ambientes
+                 Oferecemos uma base segura com acompanhamentop individualizado, ambientes
                   estimulantes e valores cristãos que guiam nossa prática. Aqui, o aprendizado é
                   construido com propósito e segurança.
                 </p>
-              </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-
+      </div>
+ </div>
     <!-- ENSINO FUNDAMENTAL II PAGE -->
     <div v-if="currentPage === 'ensfun2'">
       <div class="page-header">
@@ -529,56 +472,40 @@
         </button>
       </div>
 
-      <section class="page-hero">
-        <div class="page-hero-content">
-          <div class="page-hero-icon">🎓</div>
-          <h1>Ensino Fundamental II</h1>
-          <p>Protagonismo, tecnologia e construção de identidade</p>
-          <p>Do conhecimento à ação, uma etapa que transforma</p>
-        </div>
-      </section>
-
-      <section class="ensfun2-content">
-        <div class="ensfun2-container">
-          <div class="ensfun2-grid">
-            <div class="ensfun2-image">
-              <img src="../public/foto5.jpg" alt="Ensino Fundamental II" />
+        <section class="hero">
+        <div class="hero-content">
+          <div class="hero-left">
+            <div class="hero-icon-circle">
+              <img src="../public/logo.png" alt="Logo" class="hero-icon" />
             </div>
-            <div class="ensfun2-text">
-              <h2>Formação Integral</h2>
-              <p>
-                No Ensino Fundamental II (6º ao 9º ano), aprofundamos o conhecimento em todas as
-                áreas, preparando os alunos para os desafios do Ensino Médio com autonomia e
-                responsabilidade.
-              </p>
-              <div class="formacao-list">
-                <div class="formacao-item">
-                  <div class="formacao-check">✓</div>
-                  <span>Aprofundamento das disciplinas</span>
-                </div>
-                <div class="formacao-item">
-                  <div class="formacao-check">✓</div>
-                  <span>Desenvolvimento da autonomia</span>
-                </div>
-                <div class="formacao-item">
-                  <div class="formacao-check">✓</div>
-                  <span>Preparação para o Ensino Médio</span>
-                </div>
-              </div>
+            <div>
+              <h1 class="hero-title">
+                ENSINO FUNDAMENTAL II<br />
+                <span class="hero-title-highlight">Do conhecimento à ação, uma etapa que transforma</span>
+              </h1>
+            </div>
+            <div class="hero-buttons">
+              <button @click="openWhatsApp" class="btn-whatsapp">
+                <MessageCircleIcon class="icon-sm" />
+                <span>Agende uma visita</span>
+              </button>
             </div>
           </div>
+          
+          
+              <img src="../public/foto5.jpg" alt="Ensino Fundamental II" class="fund2-img"/>
+        </div>
+      </section>      
+   
 
-          <div class="disciplinas-section">
-            <h2>Disciplinas Principais</h2>
-            <div class="disciplinas-grid">
-              <div class="disciplina-card">
-                <img
-                  src="../public/fund2esquerda.jpg"
-                  alt="Ensino Fundamental II Icon"
-                  class="area-emoji"
-                />
-                <h3>Aprender com profundidade e sentido</h3>
-                <p>
+     <div class="conhecimento-section">
+        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
+        <div class="conhecimento-grid">
+          <div class="conhecimento-card">
+            <img src="../public/fund2esquerda.jpg" alt="Matemática" class="img-card" />
+            <div class="txt-card">
+              <h3 style="text-align: center !important;">Aprender com profundidade e sentido</h3>
+             <p>
                   Com o material Geekie e práticas pedagógicas qye envolvem
                   <strong
                     >projetos Interdisciplinares, laboratórios, aulas de campo e sala
@@ -586,44 +513,38 @@
                   >
                   nossos alunos desenvolvem habilidades essenciais para o mundo em constante
                   mudança. A tecnologia é integrada à rotina com o uso de
-                  <strong>CHromeBooks,</strong> promovendo a autonomia a aprendizagem personalizada.
+                  <strong>ChromeBooks,</strong> promovendo a autonomia a aprendizagem personalizada.
                 </p>
-              </div>
-              <div class="disciplina-card">
-                <img
-                  src="../public/fund2meio.jpg"
-                  alt="Ensino Fundamental II Icon"
-                  class="area-emoji"
-                />
-                <h3>Conexão com a fase e com o propósito</h3>
-                <p>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/fund2meio.jpg" alt="Ciências" class="img-card" />
+            <div class="txt-card">
+            <h3 style="text-align: center !important;">Conexão com a fase e com o propósito</h3>
+            <p>
                   Essa é uma fase de mudanças e desconbertas - Por isso, nossa proposta considera as
                   emoções, os valores e os desafios do pré-adolescente. Projetos como
                   <strong>Empreendedorismo, Programação, Robótica e Cultura Digital</strong>
                   despertam o interesse e promovem o engajamento com temas que fazem sentido para os
                   alunos.
                 </p>
-              </div>
-              <div class="disciplina-card">
-                <img
-                  src="../public/fund2direita.jpg"
-                  alt="Ensino Fundamental II Icon"
-                  class="area-emoji"
-                />
-                <h3>Apoio, limites e estrutura sólida</h3>
+            </div>
+          </div>
+          <div class="conhecimento-card">
+            <img src="../public/fund2direita.jpg" alt="Linguagens" class="img-card"/>
+            <div class="txt-card">
+           <h3 style="text-align: center !important;">Apoio, limites e estrutura sólida</h3>
                 <p>
                   Odferecemos uma base segura e acolhedora, com regras claras, acompanhamento
                   emocional e orientações constantes. Trabalhamos com a formação do caráter, a
                   valorização da fé e o compromisso com a verdade, formando jovens preparados para
                   fazer boas escolhas.
                 </p>
-              </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-
+      </div>
+ </div>
     <!-- ENSINO MÉDIO PAGE -->
     <div v-if="currentPage === 'ensmed'">
       <div class="page-header">
@@ -660,7 +581,7 @@
       </section>
 
       <div class="conhecimento-section">
-        <h2>Áreas de Conhecimento</h2>
+        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/ensmeddireita.jpg" alt="Matemática" class="img-card" />
@@ -677,7 +598,8 @@
             </div>
           </div>
           <div class="conhecimento-card">
-            <img src="../public/ensmedmeio.jpg" alt="Ciências" />
+            <img src="../public/ensmedmeio.jpg" alt="Ciências" class="img-card" />
+            <div class="txt-card">
             <h3>Escolhas com propósito e construção de identidade</h3>
             <p>
               Sabemos que o Ensino Médio é decisivo. Por isso, promovemos vivÊncias que ajudam o
@@ -685,15 +607,18 @@
               projetos de vida, orientação vocacional, rodas de conversa e momentos de escuta que
               apoiam esse processo de autoconhecimento e decisão.
             </p>
+            </div>
           </div>
           <div class="conhecimento-card">
-            <div class="conhecimento-icon">🧪</div>
+            <img src="../public/ensmedesquerda.jpg" alt="Linguagens" class="img-card"/>
+            <div class="txt-card">
             <h3>Segurança emocional e espiritual para seguir em frente</h3>
             <p>
               Oferecemso um ambiente que equilibra exigÊncia acadêmica com suporte emocional, fé
               cristã e uma estrutura sólida de acompanhamento. Aqui, o aluno é preparado para ser
               excelente, ético e humano - em qualquer caminho que escolher.
             </p>
+            </div>
           </div>
         </div>
       </div>
@@ -1836,7 +1761,7 @@ body {
 }
 
 .disciplina-card {
-  background-color: #f9fafb;
+  background-color: #cccccc;
   padding: 1.5rem;
   border-radius: 0.75rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -1920,10 +1845,19 @@ body {
   object-fit: cover;
   background-color: #fef3c7;
 }
-
+.fund2-img {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+.fund2-img {
+  width: 100%;
+  height: 28rem;
+  object-fit: cover;
+  background-color: #fef3c7;
+}
 .conhecimento-section {
-  margin-top: 5%;
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: WHITE;
   padding: 2rem;
   border-radius: 1rem;
   color: white;
@@ -1951,11 +1885,16 @@ body {
   display: flex
 }
 .txt-card {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #059668da;
   backdrop-filter: blur(8px);
   padding: 1.5rem;
   border-radius: 0 0 10px 10px;
   text-align: justify;
+}
+.title-conhecimento{
+  color: black;
+  font-weight: 800;
+  font-size: 22%;
 }
 
 .conhecimento-icon {
