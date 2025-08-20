@@ -174,7 +174,6 @@
             <div class="edu-card" @click="currentPage = 'educainf'">
               <img src="../public/preincio.jpg" alt="Educação Infantil Icon" class="edu-icon" />
               <h3>Educação Infantil</h3>
-              <p>Desenvolvimento através do brincar</p>
             </div>
             <div class="edu-card" @click="currentPage = 'ensfun1'">
               <img
@@ -183,7 +182,6 @@
                 class="edu-icon"
               />
               <h3> Ensino Fundamental I</h3>
-              <p>Base sólida para o aprendizado</p>
             </div>
             <div class="edu-card" @click="currentPage = 'ensfun2'">
               <img
@@ -192,12 +190,12 @@
                 class="edu-icon"
               />
               <h3> Ensino Fundamental II</h3>
-              <p>Preparação para novos desafios</p>
+
             </div>
             <div class="edu-card" @click="currentPage = 'ensmed'">
               <img src="../public/ensimedinicio.jpg" alt="Ensino Médio Icon" class="edu-icon" />
               <h3>Ensino Médio</h3>
-              <p>Preparação para o futuro</p>
+             
             </div>
           </div>
         </div>
@@ -333,7 +331,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
+        <h2 class="title-conhecimento">PILARES EDUCACIONAIS</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/preesquerda.jpg" alt="Matemática" class="img-card" />
@@ -408,7 +406,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
+        <h2 class="title-conhecimento">PILARES EDUCACIONAIS</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/fund1esquerda.jpg" alt="Matemática" class="img-card" />
@@ -489,7 +487,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
+        <h2 class="title-conhecimento">PILARES EDUCACIONAIS</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/fund2esquerda.jpg" alt="Matemática" class="img-card" />
@@ -571,7 +569,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
       </section>
 
       <div class="conhecimento-section">
-        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
+        <h2 class="title-conhecimento">PILARES EDUCACIONAIS</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/ensmeddireita.jpg" alt="Matemática" class="img-card" />
@@ -1944,9 +1942,8 @@ body {
   background-color: #059668da;
   backdrop-filter: blur(8px);
   padding: 1.5rem;
-  border-radius: 0 0 10px 10px;
-  text-align: justify;
-}
+  border-radius: 0 0 10px 10px !important;
+  text-align: justify;}
 .title-conhecimento{
   color: #059668da;
   font-weight: 800;
