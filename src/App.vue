@@ -119,7 +119,7 @@
           <div class="about-header">
             <h2>Nossa Missão</h2>
             <p>
-              Educar com princípios, inovação e acolhimento - formando seres homanos íntegros para
+              Educar com princípios, inovação e acolhimento - formando seres humanos íntegros para
               transformar o mundo com propósito.
             </p>
           </div>
@@ -130,9 +130,9 @@
               </div>
               <h3>Formar com valores cristãos e caráter sólido</h3>
               <p>
-                Promovemos uma educação fundamentada na Bíblia e nos princípios do Projeto Caráter
-                Conta, cultivando o respeito, a responsabilidade, a cidadania, o zelo, a justiça e a
-                sinceridade como base da convivência e da construção de um mundo melhor
+                Promovemos uma educação fundamentada na Bíblia e nos princípios do Projeto "Caráter
+                Conta", cultivando o respeito, a responsabilidade, a cidadania, o zelo, a justiça e a
+                sinceridade como base da convivência e da construção de um mundo melhor.
               </p>
             </div>
             <div class="card">
@@ -152,10 +152,10 @@
               <div class="card-icon bg-blue-light">
                 <UsersIcon class="icon-md blue" />
               </div>
-              <h3>Acolyher com amor, escuta e intencionalidade</h3>
+              <h3>Acolher com amor, escuta e intencionalidade</h3>
               <p>
-                Cuidamos do ser humano em sua totalidade - corpo, mente, emoções e espírito. Nossa
-                Missão é criar um ambiente seguro, afetivo e inspirador, onde cada aluno se sinta
+                Cuidamos do ser humano em sua totalidade: corpo, mente, emoções e espírito. Nossa
+                missão é criar um ambiente seguro, afetivo e inspirador, onde cada aluno se sinta
                 visto, valorizado e desafiado a florescer com propósito.
               </p>
             </div>
@@ -182,7 +182,7 @@
                 alt="Ensino Fundamental I Icon"
                 class="edu-icon"
               />
-              <h3>Fundamental I</h3>
+              <h3> Ensino Fundamental I</h3>
               <p>Base sólida para o aprendizado</p>
             </div>
             <div class="edu-card" @click="currentPage = 'ensfun2'">
@@ -191,7 +191,7 @@
                 alt="Ensino Fundamental II Icon"
                 class="edu-icon"
               />
-              <h3>Fundamental II</h3>
+              <h3> Ensino Fundamental II</h3>
               <p>Preparação para novos desafios</p>
             </div>
             <div class="edu-card" @click="currentPage = 'ensmed'">
@@ -351,9 +351,9 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
             <h3 style="text-align: center !important;">Afeto e vínculos que ensinam</h3>
             <p>
-                  Aqui, cada criança é vista como única e potente. O acolhimento amoroso, o cuidadfo
+                  Aqui, cada criança é vista como única e potente. O acolhimento amoroso, o cuidado
                   diário e o vínculo com os educadores criam um ambiente seguro e estimulante. As
-                  descobertqs são celebradas com entusiasmo, e a família é parceira em cada passo da
+                  descobertas são celebradas com entusiasmo, e a família é parceira em cada passo da
                   jornada.
                 </p>
             </div>
@@ -435,7 +435,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
                   aprendendo com alegria. Com aulas de
                   <strong>Robótica, Programação, Ciências em laboratório, dois idiomas</strong>
                   (Inglês e Libras) e vivências cristãs, estimulamos o engajamento afetivo e a
-                  construação do conhecimento com sentido.
+                  construção do conhecimento com sentido.
                 </p>
             </div>
           </div>
@@ -444,7 +444,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
            <h3 style="text-align: center !important;">Estrutura que acolhe e protege</h3>
                 <p>
-                 Oferecemos uma base segura com acompanhamentop individualizado, ambientes
+                 Oferecemos uma base segura com acompanhamento individualizado, ambientes
                   estimulantes e valores cristãos que guiam nossa prática. Aqui, o aprendizado é
                   construido com propósito e segurança.
                 </p>
@@ -496,9 +496,9 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
               <h3 style="text-align: center !important;">Aprender com profundidade e sentido</h3>
              <p>
-                  Com o material Geekie e práticas pedagógicas qye envolvem
+                  Com o material Geekie e práticas pedagógicas que envolvem
                   <strong
-                    >projetos Interdisciplinares, laboratórios, aulas de campo e sala
+                    >projetos interdisciplinares, laboratórios, aulas de campo e sala
                     invertida,</strong
                   >
                   nossos alunos desenvolvem habilidades essenciais para o mundo em constante
@@ -512,7 +512,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
             <h3 style="text-align: center !important;">Conexão com a fase e com o propósito</h3>
             <p>
-                  Essa é uma fase de mudanças e desconbertas - Por isso, nossa proposta considera as
+                  Essa é uma fase de mudanças e descobertas - Por isso, nossa proposta considera as
                   emoções, os valores e os desafios do pré-adolescente. Projetos como
                   <strong>Empreendedorismo, Programação, Robótica e Cultura Digital</strong>
                   despertam o interesse e promovem o engajamento com temas que fazem sentido para os
@@ -525,7 +525,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
            <h3 style="text-align: center !important;">Apoio, limites e estrutura sólida</h3>
                 <p>
-                  Odferecemos uma base segura e acolhedora, com regras claras, acompanhamento
+                  Oferecemos uma base segura e acolhedora, com regras claras, acompanhamento
                   emocional e orientações constantes. Trabalhamos com a formação do caráter, a
                   valorização da fé e o compromisso com a verdade, formando jovens preparados para
                   fazer boas escolhas.
@@ -580,7 +580,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
               <p>
                 No Ensino Médio, oferecemos um currículo robusto com
                 <strong>preparação para vestibulares e ENEM,</strong> trilhas formativas
-                personalizadas, simulados, tutorial e o usoi intensivo da plataforma
+                personalizadas, simulados, tutorial e o uso intensivo da plataforma
                 <strong>Geekie One</strong> com <strong>ChromeBooks individuais.</strong> O
                 pensamento crítico, a fluência digital e a autonomia intelectual são amplamente
                 desenvolvidos.
@@ -592,7 +592,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
             <h3>Escolhas com propósito e construção de identidade</h3>
             <p>
-              Sabemos que o Ensino Médio é decisivo. Por isso, promovemos vivÊncias que ajudam o
+              Sabemos que o Ensino Médio é decisivo. Por isso, promovemos vivências que ajudam o
               aluno a entender <strong>quem ele é e quem deseja se tornar.</strong> Trabalhamos
               projetos de vida, orientação vocacional, rodas de conversa e momentos de escuta que
               apoiam esse processo de autoconhecimento e decisão.
@@ -604,7 +604,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div class="txt-card">
             <h3>Segurança emocional e espiritual para seguir em frente</h3>
             <p>
-              Oferecemso um ambiente que equilibra exigÊncia acadêmica com suporte emocional, fé
+              Oferecemso um ambiente que equilibra exigência acadêmica com suporte emocional, fé
               cristã e uma estrutura sólida de acompanhamento. Aqui, o aluno é preparado para ser
               excelente, ético e humano - em qualquer caminho que escolher.
             </p>
@@ -624,7 +624,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
         </div>
         <div class="footer-text">
           <h3 style="margin-bottom: 2%">Colégio Mãe Natureza</h3>
-          <span>Princípios e tecnologia na educação</span>
+          <span>Princípios e Tecnologia na Educação</span>
         </div>
       </div>
       <div class="footer-menu">
