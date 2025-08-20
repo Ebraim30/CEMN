@@ -236,7 +236,7 @@
             <div>
               <h1 class="hero-title">
                 NOSSA HISTÓRIA<br />
-                <span class="hero-title-highlight" style="font-size: 35px;">UMA JORNADA DE DEDICAÇÂO À EDUCAÇÃO DE QUALIDADE</span>
+                <span class="hero-title-highlight" style="font-size: 75%;">UMA JORNADA DE DEDICAÇÂO À EDUCAÇÃO DE QUALIDADE</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -315,7 +315,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div>
               <h1 class="hero-title">
                 EDUCAÇÃO INFANTIL<br />
-                <span class="hero-title-highlight" style="font-size: 35px;">DO BRINCAR AO CONHECER, CADA DETALHE É PENSADO PARA ENCANTAR</span>
+                <span class="hero-title-highlight"  style="font-size: 75%;">DO BRINCAR AO CONHECER, CADA DETALHE É PENSADO PARA ENCANTAR</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -333,7 +333,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
+        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/preesquerda.jpg" alt="Matemática" class="img-card" />
@@ -390,7 +390,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div>
               <h1 class="hero-title">
                 <span style="nowrap">FUNDAMENTAL I</span><br />
-                <span class="hero-title-highlight" style="font-size: 35px;">APRENDER COM PROPÓSITO E ENCANTAMENTO</span>
+                 <span class="hero-title-highlight"  style="font-size: 75%;"> APRENDER COM PROPÓSITO E ENCANTAMENTO</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -408,7 +408,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
+        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/fund1esquerda.jpg" alt="Matemática" class="img-card" />
@@ -471,7 +471,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div>
               <h1 class="hero-title">
                 <span style="nowrap">FUNDAMENTAL II </span><br />
-                <span class="hero-title-highlight" style="font-size: 35px;">DO CONHECIMENTO À AÇÂO, UMA ETAPA QUE TRANSFORMA</span>
+                 <span class="hero-title-highlight"  style="font-size: 75%;"> DO CONHECIMENTO À AÇÂO, UMA ETAPA QUE TRANSFORMA</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -489,7 +489,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
    
 
      <div class="conhecimento-section">
-        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
+        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/fund2esquerda.jpg" alt="Matemática" class="img-card" />
@@ -552,7 +552,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
             <div>
               <h1 class="hero-title">
                 ENSINO MÉDIO<br />
-                <span class="hero-title-highlight" style="font-size: 35px;">EXCELÊNCIA, AUTONOMIA E PROPÓSITO DE VIDA</span>
+                 <span class="hero-title-highlight"  style="font-size: 75%;"> EXCELÊNCIA, AUTONOMIA E PROPÓSITO DE VIDA</span>
               </h1>
             </div>
             <div class="hero-buttons">
@@ -571,7 +571,7 @@ Por isso declaramos: “O Senhor é a minha rocha, a minha fortaleza e o meu lib
       </section>
 
       <div class="conhecimento-section">
-        <h2 class="title-conhecimento">Áreas de Conhecimento</h2>
+        <h2 class="title-conhecimento">ÁREAS DE CONHECIMENTO</h2>
         <div class="conhecimento-grid">
           <div class="conhecimento-card">
             <img src="../public/ensmeddireita.jpg" alt="Matemática" class="img-card" />
@@ -721,11 +721,7 @@ body {
   width: 100%;
   font-family: 'Arial', sans-serif;
 }
-.conhecimento-grid .conhecimento-card img {
-  width: 486px; /* largura maior */
-  height: 300px; /* altura fixa */
-  object-fit: cover; /* preenche sem distorcer */
-}
+
 .disciplinas-grid .disciplina-card .area-emoji {
   width: 400px; /* aumenta horizontalmente */
   height: 300px; /* altura fixa */
@@ -978,10 +974,7 @@ body {
   color: #059669;
 }
 
-.hero-right {
-  display: flex;
-  justify-content: flex-end;
-}
+
 
 .hero-image-wrapper {
   position: relative;
@@ -1155,30 +1148,16 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.education-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-}
+
 .footer-text {
   margin-left: 15%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.edu-card {
-  background-color: rgba(255 255 255 / 0.1);
-  backdrop-filter: blur(8px);
-  padding: 1.5rem;
-  border-radius: 1rem;
-  text-align: center;
-  cursor: pointer;
-  transition:
-    background-color 0.3s,
-    transform 0.3s;
-}
+
 
 .edu-card:hover {
   background-color: rgba(255 255 255 / 0.2);
-  transform: scale(1.05);
+  transform: scale(0.9);
 }
 
 .edu-icon {
@@ -1831,12 +1810,7 @@ body {
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
 }
 
-.ensmed-image  {
-  width: 100%;
-  height: 28rem;
-  object-fit: cover;
-  background-color: #fef3c7;
-}
+
 .fund2-img {
   border-radius: 1rem;
   overflow: hidden;
@@ -1868,14 +1842,104 @@ body {
   gap: 1.5rem;
 }
 
-
-.img-card {
-  width: 5000px;
+ .img-card {
+  width: 300px;
   border-radius: 10px 10px 0 0;
   height: fit-content;
   object-fit: cover;
   display: flex
 }
+
+@media only screen and (max-width: 600px) {
+   .conhecimento-grid .conhecimento-card {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden; /* garante que nada ultrapasse */
+  }
+
+  .conhecimento-grid .conhecimento-card img {
+    width: 100%;        /* acompanha o card */
+    max-width: 100%;    /* não passa do limite */
+    height: 250px;       /* mantém proporção */
+    object-fit: cover;  /* corta se necessário */
+    display: block;
+  } .education-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 !important;
+    padding: 0 1rem; /* segura os cards dentro da tela */
+  }
+  .edu-card {
+    width: auto;
+    background-color: rgba(255 255 255 / 0.1);
+    backdrop-filter: blur(8px);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 5%;
+    overflow: hidden; /* impede a imagem de vazar */
+  }
+
+  .hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; /* espaço entre o texto e a imagem */
+  }
+  
+
+}
+
+ 
+
+ 
+
+@media only screen and (min-width: 601px) {
+.conhecimento-grid .conhecimento-card{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden; /* garante que nada ultrapasse */
+
+} 
+
+ .conhecimento-card img {
+    width: 100%;        /* acompanha o card */
+    max-width: 100%;    /* não passa do limite */
+    height: 300px;       /* mantém proporção */
+    object-fit: cover;  /* corta se necessário */
+    display: block;
+  } 
+.edu-card {
+  width: 0 auto;
+  background-color: rgba(255 255 255 / 0.1);
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}.education-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+}
+
+
+
 .txt-card {
   background-color: #059668da;
   backdrop-filter: blur(8px);
@@ -1884,9 +1948,10 @@ body {
   text-align: justify;
 }
 .title-conhecimento{
-  color: black;
+  color: #059668da;
   font-weight: 800;
   font-size: 22%;
+  font-weight: 800;
 }
 
 .conhecimento-icon {
@@ -2069,21 +2134,44 @@ html {
   .mobile-menu {
     display: none !important;
   }
+
+  .ensmed-image, .fund2-img  {
+  width: 100%;
+  height: 28rem;
+  object-fit: cover;
+  background-color: #fef3c7;
+}
 }
 
 @media (max-width: 768px) {
+
+  .ensmed-image, .fund2-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  background-color: #fef3c7;
+}
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 30px;
+  }
+  h2{
+    font-size: 24px !important;
   }
 
+  h3{
+    font-size: 18px !important;
+  }
+  p{
+    font-size: 16px !important;
+  }
   .page-hero h1 {
-    font-size: 2.5rem;
+    font-size: 24px;
   }
-
+  
   .about-header h2,
   .education-header h2,
   .cta h2 {
-    font-size: 2rem;
+    font-size: 20px;
   }
 
   .hero-image-wrapper {
